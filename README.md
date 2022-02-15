@@ -45,8 +45,12 @@ git commit -m "Concat goodbye to a.txt"
 git push origin your-name-b-branch
 ```
 
-Now is the time to cause a conflict between `your-name-b-branch` and `master`:
+Let's open our PRs:
 * Go to GitHub
+* Open a PR for your `your-name-a-branch` into `master`
+* Open a PR for your `your-name-b-branch` into `your-name-a-branch`
+
+Now is the time to cause a conflict between `your-name-b-branch` and `master`:
 * Squash merge `your-name-a-branch`
 * Check the PR for `your-name-b-branch` and see that it has a conflict with master
 
