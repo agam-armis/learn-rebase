@@ -59,7 +59,8 @@ Now is the time to cause a conflict between `your-name-b-branch` and `master`:
 
 Very important to first pull master (or fetch, but that's for a different session). So we'll pull `master` and checkout `your-name-b-branch` again:
 ```
-git checkout master
+git checkout master 
+cd .. # This is needed as when checking out master you removed the directory with your name, and this will take you back to the main directory
 git pull
 git checkout your-name-b-branch
 ```
