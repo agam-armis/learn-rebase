@@ -67,7 +67,7 @@ git checkout your-name-b-branch
 
 And now, for the crucial moment:
 ```
-git rebase -i 
+git rebase -i master
 ``` 
 
 After running this, you will get somehing like the following in your text editor of choice:
