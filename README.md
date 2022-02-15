@@ -32,7 +32,7 @@ echo "Hello" > a.txt
 git add a.txt
 git checkout -b your-name-a-branch
 git commit -m "adding a.txt"
-git push origin --set-upstream your-name-a-branch
+git push origin --set-upstream-to origin/your-name-a-branch
 ```
 
 Make a change to `a.txt`, commit it to `your-name-b-branch` and push `your-name-b-branch` to GitHub:
@@ -42,7 +42,7 @@ git checkout -b your-name-b-branch
 echo "Goodbye" >> a.txt
 git add a.txt
 git commit -m "Concat goodbye to a.txt"
-git push --set-upstream origin your-name-b-branch
+git push --set-upstream-to origin/your-name-b-branch
 ```
 
 Let's open our PRs:
